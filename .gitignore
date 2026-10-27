@@ -1,0 +1,17 @@
+# 运行产物与临时文件不入库
+*.log
+*.ini
+*.bak
+~$*
+*.tmp
+
+# 解包 / 反编译 / 补丁过程的中间产物
+02_unpacked/
+03_decompiled/
+05_tools/node_modules/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
